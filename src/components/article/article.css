@@ -1,0 +1,26 @@
+.article_container {
+  padding: 4rem 4rem;
+  width: 100%;
+}
+.card_container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.card_btn {
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+  border: 2px solid black;
+  border-radius: 17px;
+  background-color: white;
+  width: 13vw;
+}
+
+.card_btn:hover {
+  background-color: #158140;
+  border: none;
+  color: white;
+  transition: ease-out 0.3s;
+}
