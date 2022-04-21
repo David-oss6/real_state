@@ -9,10 +9,10 @@ export default function Footer() {
           <h5>Inmobiliaria</h5>
           <div>
             <a href="#" target="_blank">
-              <i class="fa-brands fa-instagram media"></i>
+              <i className="fa-brands fa-instagram media"></i>
             </a>
             <a href="#" target="_blank">
-              <i class="fa-brands fa-facebook media"></i>
+              <i className="fa-brands fa-facebook media"></i>
             </a>
           </div>
         </div>

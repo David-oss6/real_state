@@ -1,8 +1,35 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useState } from "react";
 import "./main.css";
 
 export default function Main() {
+  const [colors, setColors] = useState({
+    comprar: true,
+    alquilar: false,
+    vender: false,
+  });
+  const handleColors = (x) => {
+    if (x === 1) {
+      setColors({
+        comprar: true,
+        alquilar: false,
+        vender: false,
+      });
+    }
+    if (x === 2) {
+      setColors({
+        comprar: false,
+        alquilar: true,
+        vender: false,
+      });
+    }
+    if (x === 3) {
+      setColors({
+        comprar: false,
+        alquilar: false,
+        vender: true,
+      });
+    }
+  };
   return (
     <main>
       <div className="texto">
@@ -13,16 +40,30 @@ export default function Main() {
         </p>
       </div>
       <div className="main_buttons_div">
-        <button>COMPRAR</button>
-        <button>ALQUILAR</button>
-        <button>VENDER</button>
+        <button
+          className={colors.comprar ? " yellow" : "  white"}
+          onClick={() => handleColors(1)}
+        >
+          COMPRAR
+        </button>
+        <button
+          className={colors.alquilar ? " yellow" : " white"}
+          onClick={() => handleColors(2)}
+        >
+          ALQUILAR
+        </button>
+        <button
+          className={colors.vender ? " yellow" : " white"}
+          onClick={() => handleColors(3)}
+        >
+          VENDER
+        </button>
       </div>
       <input
         placeholder="Ciudad, provincia, barrio o referencia "
         className="buscar"
         type="text"
       />
-      <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
     </main>
   );
 }

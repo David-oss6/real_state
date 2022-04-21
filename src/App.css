@@ -1,4 +1,4 @@
-*html {
+html {
   max-width: 100vw;
 }
 .row_img_container {
@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 90vh;
-  max-width: 100vw;
+  width: 100%;
 }
 
 .row1 {

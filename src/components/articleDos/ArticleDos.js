@@ -5,8 +5,10 @@ export default function ArticleDos() {
   return (
     <div className="container">
       <div className="content_container">
-        <h2>Vender piso es algo más que poner un anuncio online</h2>
-        <p>
+        <h2 className="custom_h2">
+          Vender piso es algo más que poner un anuncio online
+        </h2>
+        <p className="custom_p">
           En Tecnocasa nos tomamos muy en serio la venta de tu casa. Por eso
           tendrás un profesional que gestionará todo el proceso y se dedicará a
           ti en exclusiva.

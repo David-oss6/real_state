@@ -11,7 +11,7 @@ function App() {
   return (
     <Container fluid="false">
       <Row className="row_img_container">
-        <Row className="">
+        <Row>
           <Header />
         </Row>
         <Row className="h-50">

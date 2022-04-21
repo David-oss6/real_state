@@ -7,9 +7,9 @@ export default function Article() {
     <article className="article_container">
       <h3>Nuestra selección de pisos con encanto y de ocasión</h3>
       <div className="card_container">
-        <Card style={{ width: "28rem", border: "none" }}>
+        <Card className="card">
           <Card.Img
-            style={{ height: "20rem", borderRadius: "15px" }}
+            className="cardImg"
             variant="top"
             src="https://www.tecnocasa.es/img/services/adv_aticos.jpg"
           />
@@ -29,9 +29,9 @@ export default function Article() {
             <button className="card_btn">Áticos en venta</button>
           </Card.Body>
         </Card>
-        <Card style={{ width: "28rem", border: "none" }}>
+        <Card className="card">
           <Card.Img
-            style={{ height: "20rem" }}
+            className="cardImg"
             variant="top"
             src="https://www.tecnocasa.es/img/services/adv_terraza.jpg"
           />
@@ -53,9 +53,9 @@ export default function Article() {
             </button>
           </Card.Body>
         </Card>
-        <Card style={{ width: "28rem", border: "none" }}>
+        <Card className="card">
           <Card.Img
-            style={{ height: "20rem" }}
+            className="cardImg"
             variant="top"
             src="https://www.tecnocasa.es/img/services/adv_baratos.jpg"
           />
