@@ -1,38 +1,94 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
 
 export default function Header() {
+  const [nav_class, setNav_class] = useState("nav_container");
+  const [nav_out, setNav_out] = useState(false);
+  window.addEventListener("scroll", (e) => {
+    if (window.scrollY > 40) {
+      setNav_class("nav_container color_change ");
+      setNav_out(true);
+    }
+    if (window.scrollY < 39) {
+      setNav_class("nav_container ");
+      setNav_out(false);
+    }
+  });
+
   return (
-    <header className="nav_container">
-      <h1>Inmobiliaria</h1>
+    <header className={nav_class}>
+      <h1 className={nav_out ? "i_colorChange title" : "title"}>
+        Inmobiliaria
+      </h1>
       <ul className="nav_ul">
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-user-helmet-safety" />
+          <i
+            className={
+              nav_out
+                ? "fa-solid fa-house-lock i_colorChange"
+                : "fa-solid fa-house-lock"
+            }
+          />
           Blog
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-house-circle-check" />
+          <i
+            className={
+              nav_out
+                ? "fa-solid fa-house-lock i_colorChange"
+                : "fa-solid fa-house-lock"
+            }
+          />
           Comprar
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-house-lock" />
+          <i
+            className={
+              nav_out
+                ? "fa-solid fa-house-lock i_colorChange"
+                : "fa-solid fa-house-lock"
+            }
+          />
           Vender
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-house-lock" />
+          <i
+            className={
+              nav_out
+                ? "fa-solid fa-house-lock i_colorChange"
+                : "fa-solid fa-house-lock"
+            }
+          />
           Alquilar
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-house-lock" />
+          <i
+            className={
+              nav_out
+                ? "fa-solid fa-house-lock i_colorChange"
+                : "fa-solid fa-house-lock"
+            }
+          />
           Hipotecas
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-user-helmet-safety" />
+          <i
+            className={
+              nav_out
+                ? "fa-solid fa-house-lock i_colorChange"
+                : "fa-solid fa-house-lock"
+            }
+          />
           Buscar agencia inmobiliaria
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-user-helmet-safety" />
+          <i
+            className={
+              nav_out
+                ? "fa-solid fa-house-lock i_colorChange"
+                : "fa-solid fa-house-lock"
+            }
+          />
           Login
         </li>
       </ul>
