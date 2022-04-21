@@ -38,3 +38,47 @@ main {
   padding: 1rem 2rem;
   outline: none;
 }
+
+@media (max-width: 1200px) {
+  main {
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 1px 1px black;
+  }
+  .texto {
+    max-width: 30vw;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .texto h2 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+  }
+
+  .main_buttons_div {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .main_buttons_div button {
+    background-color: hsl(0, 0%, 100%, 0%);
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: #ffff00;
+  }
+
+  .buscar {
+    margin-top: 1%;
+    min-width: 45vw;
+    border-radius: 35px;
+    border: none;
+    padding: 1rem 2rem;
+    outline: none;
+  }
+}

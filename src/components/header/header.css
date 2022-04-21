@@ -8,7 +8,6 @@
   font-size: 1rem;
   padding: 2vh 2vw 0 2vw;
   margin: 0;
-  min-width: 100%;
   transition: ease-out 0.5s;
   z-index: 100;
 }
@@ -35,10 +34,55 @@ li i {
   list-style: none;
   display: flex;
   flex-wrap: nowrap;
-
   gap: 2.1rem;
 }
 
 .nav_ul li {
   white-space: nowrap;
+}
+
+/* MODAL STARTS ***************************************************/
+.modal_container {
+  transition: ease-out 0.5s;
+  border: red solid 2px;
+  background-color: white;
+  width: 70vw;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  right: -100%;
+  color: black;
+}
+.modal_container_in {
+  right: 0%;
+}
+
+/* MODAL ENDS ***************************************************/
+
+@media (max-width: 1200px) {
+  .nav_container {
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    padding: 1%;
+    margin: 0;
+    transition: ease-out 0.5s;
+    z-index: 100;
+  }
+  .title {
+    margin: 0;
+    padding: 0;
+
+    font-size: 1.6rem;
+  }
+  .nav_ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+  }
 }
