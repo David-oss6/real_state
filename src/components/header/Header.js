@@ -6,6 +6,9 @@ export default function Header() {
   const [nav_out, setNav_out] = useState(false);
   const [size, setSize] = useState();
   const [modal, setModal] = useState(false);
+  const [hamburguer_class, setHamburguer_class] = useState(
+    "modal_hamburguer_btn white"
+  );
 
   window.addEventListener("resize", (e) => {
     setSize(e.target.innerWidth);
@@ -15,10 +18,12 @@ export default function Header() {
     if (window.scrollY > 40) {
       setNav_class("nav_container color_change ");
       setNav_out(true);
+      setHamburguer_class("modal_hamburguer_btn i_colorChange");
     }
     if (window.scrollY < 39) {
       setNav_class("nav_container ");
       setNav_out(false);
+      setHamburguer_class("modal_hamburguer_btn white");
     }
   });
 
@@ -107,26 +112,26 @@ export default function Header() {
               modal ? "modal_container modal_container_in" : "modal_container"
             }
           >
-            <ul>
-              <button
-                onClick={() => {
-                  setModal(!modal);
-                }}
-              >
-                X
-              </button>
-              <li>Blog</li>
-              <li>Comprar</li>
-              <li>Vender</li>
-              <li>Alquilar</li>
-              <li>Hipotecas</li>
-              <li>Buscar agencia inmobiliaria</li>
-              <li>Login</li>
+            <button
+              className="modal_btn"
+              onClick={() => {
+                setModal(!modal);
+              }}
+            >
+              X
+            </button>
+            <ul className="modal_ul">
+              <li className="modal_li">Blog</li>
+              <li className="modal_li">Comprar</li>
+              <li className="modal_li">Vender</li>
+              <li className="modal_li">Alquilar</li>
+              <li className="modal_li">Hipotecas</li>
+              <li className="modal_li">Buscar agencia inmobiliaria</li>
+              <li className="modal_li">Login</li>
             </ul>
           </div>
-          <button className="modal_btn" onClick={() => setModal(!modal)}>
-            {" "}
-            ===
+          <button className={hamburguer_class} onClick={() => setModal(!modal)}>
+            <i className="fa-solid fa-bars"></i>
           </button>
         </>
       )}

@@ -44,7 +44,7 @@ li i {
 /* MODAL STARTS ***************************************************/
 .modal_container {
   transition: ease-out 0.5s;
-  border: red solid 2px;
+  box-shadow: 2px 2px 2px 8px hsl(0, 0%, 83%, 50%);
   background-color: white;
   width: 70vw;
   height: 100vh;
@@ -53,8 +53,38 @@ li i {
   right: -100%;
   color: black;
 }
+.modal_hamburguer_btn {
+  background-color: hsl(0, 0%, 100%, 0%);
+  border: none;
+}
+.white {
+  color: white;
+}
 .modal_container_in {
   right: 0%;
+}
+
+.modal_btn {
+  margin-left: 14rem;
+
+  border: none;
+  color: #158140;
+  font-size: 1.3rem;
+}
+.modal_ul {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  list-style: none;
+}
+
+.modal_li {
+  margin-left: 1rem;
+  color: #158140;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 /* MODAL ENDS ***************************************************/
