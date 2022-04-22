@@ -37,6 +37,12 @@ main {
   padding: 1rem 2rem;
   outline: none;
 }
+.white {
+  color: white;
+}
+.yellow {
+  color: #ffff00;
+}
 
 @media (max-width: 1200px) {
   main {

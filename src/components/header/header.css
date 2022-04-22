@@ -6,10 +6,11 @@
   align-items: center;
   color: white;
   font-size: 1rem;
-  padding: 2vh 2vw 0 2vw;
+  padding: 2vh 2.5vw 0 2vw;
   margin: 0;
   transition: ease-out 0.5s;
   z-index: 100;
+  width: 100%;
 }
 
 .color_change {

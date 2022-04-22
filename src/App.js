@@ -11,20 +11,20 @@ function App() {
   return (
     <Container fluid="false">
       <Row className="row_img_container">
-        <Row>
+        <Row className="">
           <Header />
         </Row>
         <Row className="h-50">
           <Main />
         </Row>
       </Row>
-      <Row>
+      <Row className="article">
         <Article />
       </Row>
-      <Row>
+      <Row className="articleDos">
         <ArticleDos />
       </Row>
-      <Row>
+      <Row className="articleTres">
         <ArticleTres />
       </Row>
       <Row>
