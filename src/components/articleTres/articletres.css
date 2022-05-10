@@ -26,7 +26,7 @@
   z-index: 80;
 }
 
-button {
+.city_button {
   margin-bottom: 0.5rem;
   width: 6rem;
   background-color: #fff;
@@ -56,8 +56,8 @@ button {
 
 @media (max-width: 1200px) {
   .article_container {
-    margin: 0;
-    padding: 1.2rem;
+    margin: 0 0 0 0.3rem;
+    padding: 1rem;
   }
   .contenedor {
     display: flex;
@@ -67,7 +67,7 @@ button {
   }
 
   .li_titulo {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .content_li {
@@ -91,9 +91,9 @@ button {
     z-index: 80;
   }
 
-  button {
+  .city_button {
     margin-bottom: 0.5rem;
-    width: 5rem;
+    width: 4rem;
     background-color: #fff;
     border: 1px solid black;
     border-radius: 15px;
@@ -102,7 +102,73 @@ button {
   .mas_btn {
     font-size: 0.6rem;
     font-weight: 500;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem;
+    color: white;
+    border: none;
+    margin-right: 0.5rem;
+    border-radius: 17px;
+    background-color: #355c76;
+    width: 20vw;
+    transition: ease-out 0.4s;
+    white-space: nowrap;
+  }
+
+  .mas_btn:hover {
+    background-color: white;
+    color: #355c76;
+    border: #355c76 2px solid;
+  }
+}
+
+@media (max-width: 500px) {
+  .article_container {
+    margin: 0 0 0 0.6rem;
+    padding: 1rem;
+  }
+  .contenedor {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .li_titulo {
+    font-size: 0.7rem;
+  }
+
+  .content_li {
+    font-size: 0.7rem;
+  }
+
+  .content_ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  .btn_container {
+    background-color: white;
+    box-shadow: 0 -12px 20px 0 #fff;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    z-index: 80;
+  }
+
+  .city_button {
+    margin-bottom: 0.5rem;
+    width: 3rem;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+
+  .mas_btn {
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 0.5rem;
     color: white;
     border: none;
     margin-right: 0.5rem;

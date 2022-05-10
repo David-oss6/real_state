@@ -10,68 +10,68 @@ export default function ArticleTres() {
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Barcelona</button>
+              <button className="city_button">Barcelona</button>
             </li>
             <li className="content_li">
-              <button>Madrid</button>
+              <button className="city_button">Madrid</button>
             </li>
             <li className="content_li">
-              <button>Sevilla</button>
+              <button className="city_button">Sevilla</button>
             </li>
             <li className="content_li">
-              <button>Palma</button>
+              <button className="city_button">Palma</button>
             </li>
             <li className="content_li">
-              <button>Zaragoza</button>
+              <button className="city_button">Zaragoza</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         ) : (
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         )}
@@ -79,68 +79,68 @@ export default function ArticleTres() {
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         ) : (
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         )}
@@ -148,68 +148,68 @@ export default function ArticleTres() {
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         ) : (
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         )}
@@ -217,68 +217,68 @@ export default function ArticleTres() {
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         ) : (
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         )}
@@ -286,68 +286,68 @@ export default function ArticleTres() {
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         ) : (
           <ul className="content_ul">
             <li className="li_titulo">Pisos en venta</li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
             <li className="content_li">
-              <button>Ciudad</button>
+              <button className="city_button">Ciudad</button>
             </li>
           </ul>
         )}

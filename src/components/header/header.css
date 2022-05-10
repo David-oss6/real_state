@@ -43,6 +43,7 @@ li i {
 
 .nav_ul li {
   white-space: nowrap;
+  cursor: pointer;
 }
 
 /* MODAL STARTS ***************************************************/

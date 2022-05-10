@@ -32,8 +32,8 @@ export default function Main() {
   };
   return (
     <main>
+      <h2>Estrena tu nuevo hogar</h2>
       <div className="texto">
-        <h2>Estrena tu nuevo hogar</h2>
         <p>
           Se encuentra entre los más de 7.415 pisos en venta o alquiler en las
           inmobiliarias Tecnocasa

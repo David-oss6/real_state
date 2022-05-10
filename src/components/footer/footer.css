@@ -94,3 +94,53 @@
     padding: 0.2rem 1rem;
   }
 }
+
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: #1c252c;
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .texto_div {
+    padding: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .media {
+    margin-right: 0.5rem;
+    height: 6rem;
+  }
+
+  .texto_div h5 {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.6rem;
+    font-weight: 500;
+    border: none;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 17px;
+    background-color: white;
+    width: auto;
+    transition: ease-out 0.4s;
+    white-space: normal;
+  }
+
+  .paragraf {
+    width: 7rem;
+  }
+  .end_p {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    background-color: rgba(55, 68, 78, 0.6);
+    padding: 0.2rem 1rem;
+  }
+}

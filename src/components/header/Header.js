@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./header.css";
 
 export default function Header() {
@@ -10,9 +10,12 @@ export default function Header() {
     "modal_hamburguer_btn white"
   );
 
-  window.addEventListener("resize", (e) => {
-    setSize(e.target.innerWidth);
-  });
+  useEffect(() => {
+    setSize(window.innerWidth);
+    window.addEventListener("resize", (e) => {
+      setSize(e.target.innerWidth);
+    });
+  }, []);
 
   window.addEventListener("scroll", (e) => {
     if (window.scrollY > 40) {
@@ -32,7 +35,8 @@ export default function Header() {
       <h1 className={nav_out ? "i_colorChange title" : "title"}>
         Inmobiliaria
       </h1>
-      {size > 1000 ? (
+
+      {size > 900 || undefined ? (
         <ul className="nav_ul">
           <li>
             <i
@@ -130,6 +134,7 @@ export default function Header() {
               <li className="modal_li">Login</li>
             </ul>
           </div>
+
           <button className={hamburguer_class} onClick={() => setModal(!modal)}>
             <i className="fa-solid fa-bars"></i>
           </button>
