@@ -2,7 +2,7 @@ html {
   max-width: 100vw;
 }
 .row_img_container {
-  background-image: url("https://www.tecnocasa.es/img/home-hero/es/tecnocasa/residential/desktop_4.png");
+  background-image: url("./img/desktop.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
